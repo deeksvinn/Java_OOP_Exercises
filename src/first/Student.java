@@ -59,9 +59,10 @@ public class Student {
         // User input for student grade
         System.out.println("Enter grade of the student:");
         int grade = scanner.nextInt();
-        
+        scanner.close();
         // Returns new student details
         return new Student(studentName, grade);
+        
     }
 
     // Method to print student details
